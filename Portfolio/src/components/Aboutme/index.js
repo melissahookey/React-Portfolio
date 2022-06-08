@@ -1,5 +1,8 @@
 import React from 'react';
 // import profilePic from './assets/images/profile-pic.jpg'
+import { 
+    Button 
+} from 'react-bootstrap';
 import './style.css';
 
 export default function AboutMe() {
@@ -13,10 +16,7 @@ export default function AboutMe() {
                     {/* <img className='is-rounded' src={profilePic} alt='My profile pic' /> */}
                 </figure>
                 <p className='has-text-justified'>
-                    insert bio
-                    <br />
-                    <br />
-                    insert bio
+                Full stack developer and graphic designer with the ability to learn and collaborate in fast-paced environments. Equipped with a diverse and promising skillset. Proficient in many technologies and passionate about beautiful and accessible web design.
                 </p>
             </div>
         </div>

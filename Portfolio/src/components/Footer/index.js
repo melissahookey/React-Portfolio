@@ -1,6 +1,9 @@
 import React from 'react';
 // import githubLogo from './assets/images/logo-github.png';
 // import linkedInLogo from './assets/images/logo-linkedin.png'
+import { 
+    Button 
+} from 'react-bootstrap';
 import './style.css';
 
 export default function Footer() {

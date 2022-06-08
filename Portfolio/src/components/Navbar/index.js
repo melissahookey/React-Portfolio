@@ -1,4 +1,8 @@
 import React, { useState }from 'react';
+import { 
+  Button 
+} from 'react-bootstrap';
+import './style.css';
 
 export default function Navbar({ currentPage, handlePageChange }) {
 
@@ -8,7 +12,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
     <nav className='navbar  is-info' role='navigation' aria-label='main navigation'>
       <div className='navbar-brand is-fullheight'>
         <p className='navbar-item is-size-2'>
-          Rodin Grajo
+          Melissa Hookey
         </p>
 
         <button

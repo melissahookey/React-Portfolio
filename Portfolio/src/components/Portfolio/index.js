@@ -32,10 +32,11 @@ export default function Portfolio() {
     }
     return (
         <div className='is-flex is-flex-direction-column is-fullheight'>
-            <Footer currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
             <section className='section'>
                 {renderPage()}
             </section>
+            <Footer />
         </div>
     );
 }
