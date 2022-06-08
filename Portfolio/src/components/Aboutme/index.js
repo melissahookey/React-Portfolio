@@ -1,8 +1,8 @@
 import React from 'react';
 // import profilePic from './assets/images/profile-pic.jpg'
-import { 
-    Button 
-} from 'react-bootstrap';
+import {
+    Box,
+  } from '@chakra-ui/react';
 import './style.css';
 
 export default function AboutMe() {

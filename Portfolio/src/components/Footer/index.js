@@ -1,28 +1,75 @@
 import React from 'react';
 // import githubLogo from './assets/images/logo-github.png';
 // import linkedInLogo from './assets/images/logo-linkedin.png'
-import { 
-    Button 
-} from 'react-bootstrap';
+import {
+    Box,
+    chakra,
+    Container,
+    Stack,
+    Link,
+    Image,
+    Text,
+    useColorModeValue,
+    VisuallyHidden,
+} from '@chakra-ui/react';
+import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import './style.css';
+import { icons } from 'react-icons/lib';
 
-export default function Footer() {
+const SocialButton = ({
+    children,
+    label,
+    href,
+  }) => {
     return (
-        <footer className='footer'>
-            <div className='is-flex is-justify-content-center'>
-                <ul>
-                    <li className='is-inline-flex mr-4'>
-                        <a href='https://github.com/melissahookey' rel="noreferrer" target='_blank'>
-                            {/* <img src={githubLogo} alt='Github logo'></img> */}
-                        </a>
-                    </li>
-                    <li className='is-inline-flex mr-4'>
-                        <a href='https://www.linkedin.com/in/melissahookey' rel="noreferrer" target='_blank'>
-                            {/* <img src={linkedInLogo} alt='Linked In logo'></img> */}
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-    )
-}
+      <chakra.button
+        bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+        rounded={'full'}
+        w={8}
+        h={8}
+        cursor={'pointer'}
+        as={'a'}
+        href={href}
+        display={'inline-flex'}
+        alignItems={'center'}
+        justifyContent={'center'}
+        transition={'background 0.3s ease'}
+        _hover={{
+          bg: useColorModeValue('blackAlpha.200', 'whiteAlpha.200'),
+        }}
+      >
+        <VisuallyHidden>{label}</VisuallyHidden>
+        {children}
+      </chakra.button>
+    );
+};
+
+export default function SmallWithSocial() {
+    return (
+      <Box
+        bg={useColorModeValue('gray.50', 'gray.900')}
+        color={useColorModeValue('gray.700', 'gray.200')}>
+        <Container
+          as={Stack}
+          maxW={'6xl'}
+          py={4}
+          direction={{ base: 'column', md: 'row' }}
+          spacing={4}
+          justify={{ base: 'center', md: 'space-between' }}
+          align={{ base: 'center', md: 'center' }}>
+          <Text>© 2022 Chakra Templates. All rights reserved</Text>
+          <Stack direction={'row'} spacing={6}>
+            <SocialButton label={'Twitter'} href={'#'}>
+              <FaTwitter />
+            </SocialButton>
+            <SocialButton label={'YouTube'} href={'#'}>
+              <FaYoutube />
+            </SocialButton>
+            <SocialButton label={'Instagram'} href={'#'}>
+              <FaInstagram />
+            </SocialButton>
+          </Stack>
+        </Container>
+      </Box>
+    );
+  }

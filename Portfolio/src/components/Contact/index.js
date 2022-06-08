@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { 
-  Button 
-} from 'react-bootstrap';
+import {
+  Box,
+} from '@chakra-ui/react';
 import './style.css';
 
 export default function Contact() {

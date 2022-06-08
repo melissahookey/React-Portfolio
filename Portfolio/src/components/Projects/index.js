@@ -1,14 +1,13 @@
 import React from 'react';
-import { 
-    Button 
-} from 'react-bootstrap';
-import './style.css';
+import {
+    Box,
+  } from '@chakra-ui/react';
 
 export default function Projects() {
     return (
         <figure>
             <a>
-                
+
             </a>
         </figure>
     )
