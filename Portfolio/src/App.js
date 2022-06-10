@@ -1,8 +1,18 @@
 import React from 'react';
-import './App.css';
-import { theme } from '@chakra-ui/react';
-import Portfolio from './components/Portfolio/index.js';
+import { ChakraProvider } from '@chakra-ui/react';
+import theme from "./Theme";
+import Home from './pages/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-const App = () => <Portfolio />;
-
+function App() {
+    return (
+        <ChakraProvider theme={theme}>
+            <Route 
+            path="/" 
+            element={<Home />} 
+          />
+        </ChakraProvider>
+    );
+}
+    
 export default App;

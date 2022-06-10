@@ -1,14 +1,3 @@
-import React from 'react';
-import {
-    Box,
-  } from '@chakra-ui/react';
+import Projects from './Projects';
 
-export default function Projects() {
-    return (
-        <figure>
-            <a>
-
-            </a>
-        </figure>
-    )
-}
+export default Projects; 
