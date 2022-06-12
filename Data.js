@@ -1,7 +1,6 @@
 export default {
     //   Header Details ---------------------
     name: "Melissa",
-    headerTaglineOne: "Hello 👋",
     headerTaglineTwo:
       "I'm Melissa Hookey - full stack developer and graphic designer. ",
   
