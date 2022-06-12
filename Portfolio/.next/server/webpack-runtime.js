@@ -44,8 +44,6 @@
 /******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
-<<<<<<< HEAD
-=======
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -70,7 +68,6 @@
 /******/ 		};
 /******/ 	})();
 /******/ 	
->>>>>>> 03926c6b1deedd255a78e16aef5d2a8750eec40c
 /******/ 	/* webpack/runtime/ensure chunk */
 /******/ 	(() => {
 /******/ 		__webpack_require__.f = {};
@@ -98,8 +95,6 @@
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-<<<<<<< HEAD
-=======
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -111,7 +106,6 @@
 /******/ 		};
 /******/ 	})();
 /******/ 	
->>>>>>> 03926c6b1deedd255a78e16aef5d2a8750eec40c
 /******/ 	/* webpack/runtime/startup entrypoint */
 /******/ 	(() => {
 /******/ 		__webpack_require__.X = (result, chunkIds, fn) => {

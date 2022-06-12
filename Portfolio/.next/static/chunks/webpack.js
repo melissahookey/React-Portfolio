@@ -91,8 +91,6 @@
 /******/ 		};
 /******/ 	}();
 /******/ 	
-<<<<<<< HEAD
-=======
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	!function() {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -117,7 +115,6 @@
 /******/ 		};
 /******/ 	}();
 /******/ 	
->>>>>>> 03926c6b1deedd255a78e16aef5d2a8750eec40c
 /******/ 	/* webpack/runtime/get javascript update chunk filename */
 /******/ 	!function() {
 /******/ 		// This function allow to reference all chunks
@@ -134,11 +131,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-<<<<<<< HEAD
-/******/ 		__webpack_require__.h = function() { return "2591add8204c7c2c"; }
-=======
-/******/ 		__webpack_require__.h = function() { return "9e3fdbbcc79d19cb"; }
->>>>>>> 03926c6b1deedd255a78e16aef5d2a8750eec40c
+/******/ 		__webpack_require__.h = function() { return "091bf6b898467c36"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -204,8 +197,6 @@
 /******/ 		};
 /******/ 	}();
 /******/ 	
-<<<<<<< HEAD
-=======
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	!function() {
 /******/ 		// define __esModule on exports
@@ -217,7 +208,6 @@
 /******/ 		};
 /******/ 	}();
 /******/ 	
->>>>>>> 03926c6b1deedd255a78e16aef5d2a8750eec40c
 /******/ 	/* webpack/runtime/node module decorator */
 /******/ 	!function() {
 /******/ 		__webpack_require__.nmd = function(module) {
