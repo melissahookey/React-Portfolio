@@ -9,7 +9,7 @@ export default {
       { title: "Github", link: "https://github.com/melissahookey" },
       { title: "LinkedIn", link: "https://www.linkedin.com/in/melissahookey/" },
       { title: "Email", link: "mailto:melissah315@gmail.com" },
-      { title: "Resume", link: "x" },
+      { title: "Resume", link: "https://drive.google.com/file/d/17M5KRjxZh1uEd3ioF8LoK6GTb8r3oCze/view?usp=sharing" },
     ],
   
     // Work Section ------------------------
