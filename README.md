@@ -4,12 +4,16 @@
  ![badge](https://img.shields.io/github/languages/count/melissahookey/16-HW-Portfolio)
 
    ## Table of Contents
-  1. [Description](#description) 
-  2. [Screenshots](#screenshots)
-  3. [Contact](#contact)
+  1. [Description](#description)
+  2. [Deployment](#deployment) 
+  3. [Screenshots](#screenshots)
+  4. [Contact](#contact)
 
   ## Description
   Here is my professional portfolio that I am continuing to update.
+  
+  ## Deployment
+  Heroku: https://git.heroku.com/vast-wave-04140.git
   
   ## Screenshots
   ![screenshot of portfolio](/assets/1.png) 
